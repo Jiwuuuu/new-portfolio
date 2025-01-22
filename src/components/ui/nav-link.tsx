@@ -16,7 +16,7 @@ export function NavLink({ number, children, className, href = "#", color = "FFBE
       href={href}
       className={cn(
         "group relative flex h-[30px] w-[116px] cursor-pointer items-center justify-between",
-        "rounded-md border border-black bg-black px-2.5 py-2",
+        "rounded-md border border-black/10 bg-white/10 px-2.5 py-2",
         "text-white transition-all duration-200",
         className,
       )}
@@ -39,7 +39,7 @@ export function NavLink({ number, children, className, href = "#", color = "FFBE
           background-color: var(--hover-color);
           color: black;
           transform: translate(-0.25rem, -0.25rem);
-          box-shadow: 0.25rem 0.25rem black;
+          box-shadow: 0.25rem 0.25rem #606060;
         }
         a:active {
           transform: translate(0);

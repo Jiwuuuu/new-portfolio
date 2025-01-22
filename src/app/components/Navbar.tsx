@@ -5,8 +5,8 @@ import React from "react";
 
 function Navbar() {
   return (
-    <div className="flex justify-between  font-mono">
-      <h1 className="font-switzer">DREI</h1>
+    <div className="flex justify-between font-mono">
+      <h1 className="font-switzer font-black">DREI</h1>
       <div>
         <ul>
           <div className="flex flex-col gap-4 font-switzer">
